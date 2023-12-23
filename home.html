@@ -11,29 +11,85 @@
     <link rel="stylesheet" href="resources/css/styles.css">
 </head>
 <body>
-    <header class="area" id="header">
-        <div class="area_container" id="header_container">
-            <section class="section header_section" id="header_logo">Header Logo</section>
-            <nav class="section header_section" id="header_nav">Header Nav</nav>
-        </div>
+    <header class="area dark" id="header">
+        <section class="section main" id="top_header">
+            <div class="section_container wide twin" id="top_header_container">
+                <a class="block top_header_block" id="top_header_logo_block">
+                    <img src="resources/images/secondary-logotype-transparent.svg" alt="LernSpace Logotype"
+                         id="top_header_logo">
+                </a>
+
+                <nav class="block top_header_block flex" id="top_header_nav">
+                    <ul class="flex" id="top_header_nav_list">
+                        <li class="top_header_nav_item">
+                            <a href="#" class="header_nav_link">About Us</a>
+                        </li>
+                        <li class="top_header_nav_item">
+                            <a href="#" class="header_nav_link">Blogs</a>
+                        </li>
+                    </ul>
+                    <button class="flex primary" id="top_header_button">
+                        <a href="#" class="button header get_started_button">Get Started</a>
+                    </button>
+                </nav>
+            </div>
+        </section>
     </header>
 
-    <main class="area" id="main">
-        <div class="area_container" id="main_container">
-            <section class="section main_section" id="main_banner">Main Banner</section>
+    <main class="area light" id="main">
+        <section class="section main" id="banner">
+            <div class="section_container wide" id="banner_container">
+                <div class="block banner_block" id="banner_content">
+                    <h1 class="banner_item" id="banner_title">Lern the better way</h1>
+                    <p class="banner_item" id="banner_message">
+                        Discover stories, thinking, and expertise from writers on any topic.
+                    </p>
+                    <button class="banner_item flex primary" id="banner_button">
+                        <a href="#" class="button header get_started_button">Get Started</a>
+                    </button>
+                </div>
+            </div>
+        </section>
 
-            <section class="section main_section" id="main_content1">Main Content 1</section>
-            <section class="section main_section" id="main_content2">Main Content 2</section>
-        </div>
+        <section class="section main" id="stories">
+            <div class="section_container" id="stories_container">
+                <div class="block header stories_block" id="stories_header">
+                    Stories Header
+                </div>
+
+                <div class="block stories_block" id="stories_content">
+                    Stories Content
+                </div>
+            </div>
+        </section>
+
+        <section class="section main" id="service">
+            <div class="section_container" id="service_container">
+                <div class="block header service_block" id="service_header">
+                    Service Header
+                </div>
+
+                <div class="block service_block" id="service_content">
+                    Service Content
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer class="area" id="footer">
-        <div class="area_container" id="footer_container">
-            <section class="section footer_section" id="footer_logo">Footer Logo</section>
-            <section class="section footer_section" id="footer_nav">Footer Nav</section>
-            <section class="section footer_section" id="footer_copyright">Footer Copy</section>
-        </div>
+    <footer class="area dark" id="footer">
+        <section class="section main" id="footer_section">
+            <div class="section_container wide twin" id="footer_container">
+                <a href="home.html" class="block footer_block" id="footer_logo_block">
+                    <img src="resources/images/wordmark-transparent.svg" alt="LernSpace Logotype"
+                         id="footer_logo">
+                </a>
+                <div class="block footer_block" id="footer_copy">
+                    Footer Copy
+                </div>
+            </div>
+        </section>
     </footer>
 
+    <script src="resources/scripts/script.js"></script>
 </body>
 </html>

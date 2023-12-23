@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* ============================== BASIC STYLES ============================== */
+html {
+    font-size: 20px;
+}
+body {
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+@media only screen and (max-width: 840px) {
+    body {
+        font-size: 0.72rem;
+    }
+}
+
+
+
+/**
+ * ========================= General Styles ==========================
+ *
+ * Styles the classes of elements grouped together by their similarities.
+ * This includes but not limited to flex and grid containers, and buttons.
+ *
+ * */
+.flex {
+    display: flex;
+}
+
+button.primary {
+    background-color: #F69A1D;
+    color: #242422;
+    border-radius: 2rem;
+    font-weight: 600;
+}
+.button {
+    padding: 0.6rem 1.2rem;
+}
+
+.light {
+    background-color: #E7EDDE;
+    color: #242422;
+}
+.dark {
+    background-color: #242422;
+    color: #E7EDDE;
+}
+
+
+
+/**
+ * ========================= Area ==========================
+ *
+ * Styles the .area classes, which are the primary divisions of the <body>,
+ * including the <header>, <main>, and <footer>. Each area also has a
+ * div.area_container which holds the sections of the area.
+ *
+ * */
+.area {
+    border: 1px solid black;
+    display: grid;
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+}
+
+#main {
+    position: relative;
+    margin-top: 4.2rem;
+}
+
+
+/**
+ * ========================= Section ==========================
+ *
+ * Styles the .section classes, which are the sub-divisions of the .area classes.
+ * Each section is composed of smaller units called div.block.
+ *
+ * */
+.section {
+    border: 1px solid red;
+    display: flex;
+    width: 100%;
+    padding: 1rem 0;
+    justify-content: center;
+}
+
+.section_container {
+    border: 1px solid green;
+    display: grid;
+    max-width: 1080px;
+    margin: 0 2rem;
+    flex-grow: 1;
+}
+.section_container.wide {
+    max-width: 1280px;
+}
+
+.section_container.twin {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media only screen and (max-width: 640px) {
+    .section_container {
+        margin: 0 1rem;
+    }
+}
+
+
+/**
+ * ========================= Block ==========================
+ *
+ * Styles the div.block classes, which are the sub-divisions of the .section classes.
+ * Each block contain specific content like heading or content.
+ *
+ * */
+.block {
+    display: flex;
+    min-height: 2rem;
+    align-items: center;
+}
+
+
+/**
+ * ========================= Header ==========================
+ *
+ * Styles the header area. It is comprised of two sections — top_header and side header
+ * The top_header is always visible regardless of the screen width.
+ * The side_header is only visible on toggle at max screen width 960px
+ *
+ * */
+#top_header {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    background-color: #242422;
+    color: #E7EDDE;
+}
+#top_header_container {
+    grid-template-columns: 1fr 2fr;
+}
+#top_header_logo {
+    height: 2.4rem;
+    width: auto;
+}
+
+#top_header_nav {
+    justify-content: right;
+}
+
+#top_header_nav_list {
+    list-style-type: none;
+}
+
+.top_header_nav_item {
+    padding-right: 2rem;
+}
+.header_nav_link:hover {
+    color: #F69A1D;
+}
+
+
+/**
+ * ========================= Banner ==========================
+ *
+ * Styles the banner section. It is a child of main area and is composed of two blocks.
+ * On wide screens, it is a 1x2 grid. On narrower screens, it is 2x1 grid.
+ *
+ * */
+#banner {
+    position: relative;
+    background: url('../images/banner-photo.jpg') center/cover no-repeat;
+}
+#banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(36, 36, 34, 0.8);
+    z-index: 1;
+}
+
+#banner_container {
+    position: relative;
+    z-index: 2;
+}
+#banner_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #E7EDDE;
+}
+.banner_item {
+    margin-bottom: 1rem;
+}
+
+#banner_button {
+    margin-top: 1rem;
+}
+.banner_block {
+    min-height: 60vh;
+}
+
+
+/**
+ * ========================= Footer ==========================
+ *
+ * Styles the footer area. It is comprised of only one section — footer section
+ * The footer section has two blocks — footer logo and footer copyright.
+ *
+ * */
+#footer_logo {
+    height: 1.4rem;
+    width: auto;
+}
+
+
+
+
