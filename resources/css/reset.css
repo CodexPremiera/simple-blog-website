@@ -1,0 +1,215 @@
+/* ========================= GENERAL ========================= */
+html {
+    font-size: 20px;
+}
+body {
+    font-size: 0.8rem;
+}
+@media only screen and (max-width: 780px) {
+    body {
+        font-size: 0.6rem;
+    }
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"] {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    padding: 0.4rem 1.2rem;
+    margin: 0 0.4rem;
+    background-color: lightgray;
+    border: 1px solid gray;
+    border-radius: 0.6rem;
+}
+
+/* ========================= STRUCTURE ========================= */
+.area {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.panel {
+    display: flex;
+    justify-content: center;
+}
+
+header.area {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: lightgray;
+}
+
+.area_container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    max-width: 1080px;
+    margin: 0 1.5rem;
+    padding: 1rem 0;
+}
+
+main.area {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    min-height: 100vh;
+}
+
+@media only screen and (max-width: 1200px) {
+    main.area {
+        display: flex;
+        min-height: 100vh;
+    }
+
+    #aside_panel {
+        display: none;
+    }
+}
+
+
+
+/* ========================= MAIN ========================= */
+.main_section {
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+}
+
+#main_header {
+    padding: 0.4rem 1rem;
+    border-bottom: 1px solid black;
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+#form_title {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+/* ========================= FORM ========================= */
+
+.form_block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    padding: 1.4rem 1.2rem 1.2rem;
+    border: 1px solid black;
+    border-radius: 0.6rem;
+    position: relative;
+}
+
+#head_block {
+    flex-direction: row;
+    justify-content: space-between;
+    border: none;
+    padding-top: 0;
+}
+
+#submit_block {
+    padding: 0.4rem;
+    border: none;
+}
+
+.form_block_title {
+    margin-bottom: 0.4rem;
+    position: absolute;
+    top: -0.5rem;
+    background-color: white;
+    padding: 0 0.4rem;
+}
+
+/* ========================= FORM ENTRY ========================= */
+.form_entry {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    margin-bottom: 0.5rem;
+}
+
+#product_block .form_entry {
+    grid-template-columns: 160px 4fr 1fr;
+}
+
+#head_block
+
+#date_entry {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+#credit_checkbox {
+    grid-column: 1 / span 2;
+}
+
+.entry_group {
+    display: flex;
+    margin: 0.2rem;
+}
+#shipping_options {
+    flex-direction: column;
+}
+#card_options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#submit_group {
+    justify-content: center;
+}
+
+/* ========================= INPUT LABEL ========================= */
+
+.input_label {
+    margin-left: 0.8rem;
+    padding-top: 0.2rem;
+}
+.total {
+    flex-direction: column;
+    grid-column: 3;
+    padding-right: 0.05rem;
+}
+#product_total_label {
+    grid-column: 2;
+    justify-self: right;
+}
+
+
+/* ========================= INPUT BOX ========================= */
+.input_box {
+    border: 1px solid black;
+    border-radius: 0.125rem;
+    padding: 0.1rem 0.2rem;
+    margin: 0 0.2rem;
+}
+
+.total_input_box {
+    width: 100%;
+    text-align: right;
+}
+
+.name_box, .city_box {
+    max-width: 540px;
+    flex-grow: 1;
+}
+
+.street_box {
+    max-width: 660px;
+    height: 84px;
+    flex-grow: 1;
+    resize: none;
+    overflow-y: scroll;
+}
+
+
+.total {
+    margin: -0.09rem;
+}
+
+.radio_option {
+    margin-top: 0.5rem;
+}
