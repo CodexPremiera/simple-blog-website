@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="iconmark-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 237.5 237.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #242422;
+      }
+
+      .cls-2 {
+        fill: #e8edde;
+      }
+
+      .cls-3 {
+        fill: #f79c1d;
+      }
+    </style>
+  </defs>
+  <circle id="background" class="cls-1" cx="118.75" cy="118.75" r="118.75"/>
+  <g id="logomark">
+    <path id="S_Belly" data-name="S Belly" class="cls-3" d="m187.5,141.66c0,25.32-20.52,45.84-45.83,45.84v-91.67c25.31,0,45.83,20.52,45.83,45.83Z"/>
+    <ellipse id="S_Head" data-name="S Head" class="cls-2" cx="164.69" cy="73" rx="22.81" ry="22.89"/>
+    <path id="S_Spine" data-name="S Spine" class="cls-2" d="m141.67,50v91.67c-25.31,0-45.83-20.52-45.83-45.85s20.52-45.81,45.83-45.81Z"/>
+    <path id="Both_End" data-name="Both End" class="cls-2" d="m95.83,186.78c0-15.04,0-30.08,0-45.12,25.31,0,45.83,20.52,45.83,45.83h-45.83"/>
+    <circle id="L_Corner" data-name="L Corner" class="cls-3" cx="72.92" cy="164.58" r="22.92"/>
+    <path id="L_Stem" data-name="L Stem" class="cls-3" d="m95.83,95.83v45.83c-25.31,0-45.83-20.52-45.83-45.83v-45.83c25.32,0,45.83,20.52,45.83,45.83Z"/>
+  </g>
+</svg>

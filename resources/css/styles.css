@@ -4,6 +4,7 @@
 /* ============================== BASIC STYLES ============================== */
 html {
     font-size: 20px;
+    scroll-behavior: smooth;
 }
 body {
     font-size: 0.8rem;
@@ -15,7 +16,11 @@ body {
         font-size: 16px;
     }
 }
-
+@media only screen and (max-width: 640px) {
+    html {
+        font-size: 14px;
+    }
+}
 
 /**
  * ========================= General Styles ==========================
@@ -56,7 +61,7 @@ h2 {
     position: relative;
     margin: 0 auto 2rem;
     justify-self: center;
-    font-size: 1.4rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 h2::after {
@@ -69,6 +74,15 @@ h2::after {
     background-color: #F69A1D;
 }
 
+.photo_box {
+    width: 100%;
+    height: 100%;
+}
+.photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 
 /**
@@ -107,7 +121,7 @@ h2::after {
     justify-content: center;
 }
 .section.main {
-    padding: 3rem 0;
+    padding: 2rem 0 5rem;
 }
 
 .section_container {
@@ -176,8 +190,6 @@ h2::after {
     #top_header_logo1 { display: none; }
     #top_header_logo2 { display: block; }
 }
-
-
 
 #top_header_nav {
     justify-content: right;
@@ -299,6 +311,9 @@ h2::after {
     }
 }
 @media only screen and (max-width: 540px) {
+    .banner_block {
+        height: 36vh;
+    }
     #banner_title {
         font-size: 3.2rem;
     }
@@ -309,6 +324,114 @@ h2::after {
 @media only screen and (max-width: 400px) {
     #banner_title {
         font-size: 2.8rem;
+    }
+}
+
+/**
+ * ========================= Stories ==========================
+ *
+ * Styles the stories section. It is a child of main area and is composed of two blocks.
+ * The #stories_content block feature 3 top stories of the blog site.
+ *
+ * */
+#stories_content {
+    flex-direction: column;
+}
+#stories_container {
+    margin-top: 2rem;
+}
+.stories_item {
+    display: flex;
+    margin: 2rem 0;
+}
+.stories_article {
+    display: flex;
+    flex-direction: column;
+    max-width: 640px;
+}
+
+.article_line {
+    margin-bottom: 1rem;
+}
+
+.article_author {
+    display: flex;
+    align-items: center;
+}
+.article_author_profile {
+    height: 1rem;
+    width: auto;
+    border-radius: 50%;
+    margin-right: 0.4rem;
+}
+.article_author_name {
+    font-weight: 600;
+}
+
+.article_title {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.article_subtitle {
+    margin-top: 0.6rem;
+    color: #606058;
+}
+
+.article_info {
+    color: #606058;
+    margin-right: 0.8rem;
+}
+
+.stories_photo_box {
+    max-width: 320px;
+    max-height: 200px;
+    margin-left: 2rem;
+}
+.stories_photo {
+    border-radius: 0.32rem;
+    width: 320px;
+    height: 200px;
+}
+@media only screen and (max-width: 840px) {
+    .stories_item {
+        margin: 1.6rem 0;
+    }
+    .stories_photo_box {
+        max-width: 240px;
+        max-height: 150px;
+    }
+    .stories_photo {
+        height: 150px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .stories_item {
+        margin: 1.2rem 0;
+    }
+    .article_author_name {
+        font-size: 0.8rem;
+    }
+    .article_title {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .article_subtitle {
+        display: none;
+    }
+    .stories_photo_box {
+        max-width: 160px;
+        max-height: 100px;
+    }
+    .stories_photo {
+        height: 100px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .article_line {
+        margin-bottom: 0.8rem;
+    }
+    .stories_photo_box {
+        max-width: 120px;
     }
 }
 
@@ -324,7 +447,9 @@ h2::after {
     height: 1.4rem;
     width: auto;
 }
-
+#footer_copy {
+    display: block;
+}
 
 
 

@@ -1,0 +1,26 @@
+Gender Bias in the Workforce
+
+In the rapidly evolving landscape of the tech industry, gender bias remains a palpable challenge, casting a shadow over its workforce and organizational structures. Despite the strides made towards workplace equality, gender disparities persist, particularly in technology, science, and engineering. This narrative delves into the nuanced dimensions of gender bias in the tech sector, exploring the historical context, workforce statistics, and the persistent challenges faced by women.
+
+To illustrate the extent of gender bias in the tech workforce, one need only consider its historical male dominance, especially in technology, science, and engineering. Women, despite constituting 47% of all employed adults in the United States in 2022, hold only 28% of roles in computing and mathematics, according to Zippia (2022). Moreover, McKinsey and Company's report in 2023 found that for every 100 men promoted to managerial positions across industries, only 86 women ascend to similar roles. In the tech sector, this number drops to a mere 52 women for every 100 men.
+
+Education, while making progress, still faces challenges. Although more women are earning STEM degrees and approaching parity with men in obtaining bachelor’s degrees in science and engineering (National Science Foundation, 2019), computer science lags behind, with women earning only 18% of bachelor's degrees in 2021. The global perspective is equally revealing, as Filipino women comprise only 36.3% of the STEM workforce compared to 58.8% in non-STEM fields, as noted in the 2023 Global Gender Gap Report by the World Economic Forum, citing LinkedIn data.
+
+Beyond the workforce, gender disparities persist within businesses, especially in startups, where unconventional work environments coexist with challenges for women, especially those in founder roles. A study by the Silicon Valley Bank (2020) reveals that only one in four startups has a female founder, while 53% have at least one woman in an executive position. In the Philippines, though data is limited, the Gender Employment Statistics (2017) of the Philippine Statistics Authority reported that out of approximately 366,000 Filipinos working in the Information and Communication sector in 2016, 64% are men, and 36% are women.
+
+The underrepresentation of women in the tech profession may extend its influence into gender bias in other realms. Reuther (2023) argued that the scarcity of female designers leads to products perpetuating stereotypes of female consumers, setting the stage for the next facet of gender bias—product design.
+
+Undoubtedly, the discussion above paints a compelling picture of the uphill battle that women face in securing their place in this domain. From the glaring gaps in employment to the hurdles in climbing the corporate ladder, the tech sector is a microcosm of larger societal issues. As we pivot from workforce disparities to the underrepresentation of women in leadership roles, and even the nascent realm of startups, the need for comprehensive solutions becomes evident.
+
+To address these challenges, initiatives such as mentorship programs, diversity and inclusion policies, and educational initiatives can play a pivotal role. Bridging this gender gap is not just a matter of justice; it is a crucial step towards fostering a truly inclusive and innovative future. Beyond the boundaries of the workforce, the influence of gender bias extends into product design, shaping narratives and perpetuating stereotypes. As we navigate through this narrative, it is a call to action — a call for transformative change in an industry that holds the keys to the future.
+
+
+Bibliography
+McCain, A. (2022). 40 Telling Women In Technology Statistics [2023]: Computer Science Gender Ratio. Retrieved from Zippia.com: https://www.zippia.com/advice/women-in-technology-statistics/
+McKinsey and Company. (2023). Women in the Workplace 2023. Retrieved from McKinsey and Company: https://www.mckinsey.com/featured-insights/diversity-and-inclusion/women-in-the-workplace#/
+National Science Foundation. (2019). Women, Minorities, and Persons with Disabilities in Science and Engineering. Retrieved from https://ncses.nsf.gov/pubs/nsf19304/digest
+Phillippine Statistics Authority. (2017). Gender Statistics on Labor and Employment. Retrieved from psa.gov.ph: https://psa.gov.ph/content/2017-gender-statistics-labor-and-employment
+Reuther, K. K. (2023). Shrink It and Pink It: Gender Bias in Product Design. Retrieved from Harvard Advanced Leadership Initiative: Social Impact Review: https://www.sir.advancedleadership.harvard.edu/articles/shrink-it-and-pink-it-gender-bias-product-design
+Silicon Valley Bank. (2020). 2020 Women US Technology Leadership. Retrieved from svb.com: https://www.svb.com/women-in-technology
+World Economic Forum. (2023). Global Gender Gap Report 2023. Retrieved from weforum.org: https://www3.weforum.org/docs/WEF_GGGR_2023.pdf
+
