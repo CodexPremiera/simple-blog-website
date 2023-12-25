@@ -10,7 +10,7 @@
 
 #story_container {
     display: grid;
-    max-width: 72ch;
+    max-width: 80ch;
 }
 
 #stories_content {
