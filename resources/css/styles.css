@@ -16,11 +16,6 @@ body {
         font-size: 16px;
     }
 }
-@media only screen and (max-width: 640px) {
-    html {
-        font-size: 14px;
-    }
-}
 
 /**
  * ========================= General Styles ==========================
@@ -176,7 +171,7 @@ h2::after {
     box-shadow: 0 0 20px rgba(36, 36, 34, 0.5);
 }
 #top_header_container {
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
 }
 .top_header_logo {
     height: 2.4rem;
@@ -299,6 +294,9 @@ h2::after {
     #banner_title {
         font-size: 4rem;
     }
+    #banner_title em::after {
+        height: 0.4rem;
+    }
     #banner_message {
         font-size: 1rem;
     }
@@ -397,44 +395,35 @@ h2::after {
         margin: 1.6rem 0;
     }
     .stories_photo_box {
-        max-width: 240px;
-        max-height: 150px;
+        max-width: 200px;
+        max-height: 120px;
     }
     .stories_photo {
         height: 150px;
     }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
+    #stories_content {
+        max-width: 480px;
+        margin: 0 auto;
+    }
     .stories_item {
         margin: 1.2rem 0;
     }
-    .article_author_name {
-        font-size: 0.8rem;
+    .stories_photo_box {
+        display: none;
     }
-    .article_title {
-        font-size: 1rem;
-        font-weight: 700;
+}
+@media only screen and (max-width: 540px) {
+    #stories_content {
+        max-width: 420px;
     }
+}
+@media only screen and (max-width: 400px) {
     .article_subtitle {
         display: none;
     }
-    .stories_photo_box {
-        max-width: 160px;
-        max-height: 100px;
-    }
-    .stories_photo {
-        height: 100px;
-    }
 }
-@media only screen and (max-width: 450px) {
-    .article_line {
-        margin-bottom: 0.8rem;
-    }
-    .stories_photo_box {
-        max-width: 120px;
-    }
-}
-
 
 /**
  * ========================= Footer ==========================
